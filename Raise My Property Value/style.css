@@ -1,0 +1,411 @@
+*{
+    background-color: rgb(2, 23, 44);
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+*::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("/assets/slide.png");
+    background-size:contain;
+    background-position: center;
+}
+
+.navbar{
+   background-color: transparent;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+.navbar img{
+    background-color: transparent;
+    position: inherit;
+    top: 10vh;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+    background-color: transparent;
+}
+
+ul{
+    background-color: transparent;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    background-color: transparent;
+    justify-content: space-evenly;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.person{
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  
+}
+
+.person img{
+    padding: 4px;
+    display: flex;
+}
+
+.person a{
+    background-color: transparent;
+    text-decoration: none;  
+    color: azure;
+    font-size:28px;
+    margin: 0 10px;
+    
+}
+
+.moto{
+background-color: transparent;
+color: azure;
+font-size: 70px;
+font-weight:800;
+word-spacing: 3px;
+letter-spacing: 3px;
+margin-top: 60px;
+margin-left: 40px;
+padding: 15px 0 15px 5px;
+font-display:initial ;
+}
+
+.declare{
+    background-color: transparent;
+    color: azure;
+    font-size: 38px;
+    font-weight:400;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 8px 0 10px 5px;
+    font-display:initial ;
+    }
+
+    .video-player{
+        width: 80%;
+        position: absolute;
+        border-radius: 10px;
+        padding: auto;
+        position: relative;
+        margin: 5px 5px 30px 5px;
+        display: flex;
+        align-self: center;
+        background-position: center;
+    }
+
+    .lines{
+        width: 100%;
+        height: 3px;
+        color: rgb(170, 98, 73);
+        fill: rgb(170, 98, 73);
+        background-color: rgb(170, 98, 73);    
+        border: none;
+    }
+
+ 
+
+    .rectangle-top-left{
+        width: 379px; 
+        height: 165px; 
+        left: 0px; 
+        top: 0px; 
+        position: relative; 
+        background: #AA6249;
+    }
+
+    .blue-text-first{
+        width: 373px; 
+        left: 22px; 
+        top: 71px; 
+        position: absolute; 
+        color: #02172C; 
+        font-size: 65px; 
+        font-family: 
+        Inter;background-color: transparent; 
+        font-weight: 600; 
+        word-wrap: break-word;
+    }
+
+
+    .button-nav a{
+        /* position: relative; */
+        font-family: Inter;
+        color: rgb(170, 98, 73);
+        text-decoration: none;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 15px;
+        display:inline-block;
+    }
+
+    .button-nav {
+        background-color: transparent;
+        font-family: Inter;
+        position: absolute;
+        right: 4%;
+        padding: 20px;
+        color: #AA6249;
+    }
+
+    .individual{
+    background-color: transparent;
+    color: azure;
+    font-size: 30px;
+    font-weight:400;
+    margin-top: 170px;
+    margin-left: 22px;
+    padding: 8px 0 10px 5px;
+    position: relative;
+    font-display:initial ;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    }
+
+    .before{
+    font-size: 100px;
+    color: rgb(170, 98, 73);
+    position: relative;
+    
+    left: 12%;
+    stroke: 2px solid rgb(170, 98, 73);
+    background: none;
+    }
+    span a{
+        text-decoration: none;
+        color:#aa6249;
+        font-size: 60px;
+        align-items: start;
+        margin-bottom: 25px;
+        padding-top: 20px;
+    }
+
+    .after{
+        font-size: 100px;
+        position: absolute;
+        color: #AA6249;
+        right: 12%;
+    }
+
+    .review-list{
+        margin: 5 auto;
+        position: relative;
+        width: 90%;
+        background-color: transparent;
+        height: 500px;
+        text-align:center;
+        display: inline-flex;
+        top: -10px;
+        /* overflow-x: hidden;       */
+ }
+
+    .review-card{
+        width: 650px;
+        height: 450px;
+        background: #373737; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        position: relative;
+        left: 90px;
+    }
+
+    ul li div .review-details{
+        font-family: 'Inter';
+        font-display:inherit ;
+        font-size: 25px;
+        width: 400px;
+        height: auto;
+        font-weight: 300;
+        background-color: transparent;
+        color: azure;
+        display: flow;
+        position: inherit;
+        top: 60px;
+        text-align: center;
+        block-size: auto;
+        left: 38px;
+    }
+
+    .rate{
+        position: inherit; 
+        right: 320px;
+        top: 50px;
+        background-color: transparent;
+        padding: 0 10px;
+    }
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+    background-color: transparent;
+}
+.rate:not(:checked) > label:before {
+    content: '★ '
+
+}
+.rate > input:checked ~ label {
+    color: #ffc700; 
+    background-color: transparent;   
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217; 
+    background-color: transparent; 
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+    background-color: transparent;
+}
+
+.social{
+    align-items: center;
+    color: #AA6249;
+    padding-top: 55px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-family: "Inter";
+    width: 100%;
+    text-align: center;
+
+}
+
+.social-icons{
+
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-logo{
+    padding:10px 20px 10px 20px;
+}
+
+.email{
+    width: 70%;
+    height: 80px;
+    position: relative;
+    left: 260px;
+    top: 55px;
+    font-size: 28px;
+    color: #AA6249;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+}
+
+::placeholder{
+    color: #AA6249;
+    font-size: 28px;
+    padding: 10px 10px 10px 20px;
+}
+
+input[type=email]{
+    border: 3px solid #373737;
+    color: #AA6249;
+    background-color: #373737;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.email-field{
+    margin: 10px 10px 30px 10px;
+    position: relative;
+    height: 250px;
+}
+
+.square-grid{
+    width: 100%;
+    height: 1000px;
+    display: table-row;
+    position: absolute;
+}
+
+.inside-box{
+    width: 50%;
+    height: 500px;
+    border: 3px solid #aa6249;
+    border-left: 0px;
+    border-top: 0px;
+    position:relative;
+    display:inline-table;
+    left: 0%;
+    z-index: 0;
+    align-items: center;
+}
+.inside-box img{
+    position: relative;
+    left: 270px;
+    top: 100px;
+}
+
+.inside-box h1{
+    font-size: 35px;
+    font-family: "Inter";
+    color: azure;
+    position: absolute;
+    top:230px;
+    left: 230px;
+    font-weight: 400;
+    background-color: transparent;
+    text-align: center;
+}
+
+.inside-box h2{
+    font-size: 35px;
+    font-family: "Inter";
+    color: azure;
+    position: absolute;
+    top:280px;
+    left: 140px;
+    font-weight: 400;
+    background-color: transparent;
+    text-align: center;
+}
+
+.inside-box .contact-logo{
+    top: 350px;
+    position: relative;
+    left: 1px;
+    align-items: center;
+    padding: 10px 20px 10px 0px;
+}
+
